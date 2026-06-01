@@ -16,12 +16,12 @@ export default function Sobre() {
           <div className="flex flex-col items-center justify-center">
             <div className=" w-full max-w-300 aspect-square rounded-2xl overflow-hidden shadow-lg border-4 border-gray-100">
               {/* TAG <img> REAL */}
-                      <img 
-          src={nathanPhoto} 
-          alt={profile.name}
-          loading="lazy"
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-        />
+              <img
+                src={nathanPhoto}
+                alt={profile.name}
+                loading="lazy"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
 
               {/* Opcional: Borda ou efeito de overlay */}
               <div className="absolute inset-0 bg-linear-to-t from-white/50 to-transparent"></div>
@@ -51,7 +51,7 @@ export default function Sobre() {
               </span>
               <span className="flex items-center gap-2">
                 <MapPin size={18} />
-                São Paulo, Brasil
+                Três Lagoas, MS
               </span>
               <span className="flex items-center gap-2">
                 <Calendar size={18} />
