@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #2563eb;
+  --color-brand-secondary: #1e293b;
+  --color-brand-accent: #06b6d4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Acessibilidade integrada com seu tema */
+*:focus-visible {
+  outline: 2px solid var(--color-brand-primary);
+  outline-offset: 2px;
+}
