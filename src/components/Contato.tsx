@@ -17,7 +17,7 @@ export default function Contato() {
 
         <div className="flex justify-center gap-8">
           <a
-            href="mailto:nathan@example.com"
+            href="mailto:nathantl50@gmail.com"
             className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
           >
             Email
